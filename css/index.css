@@ -71,6 +71,65 @@ p {
     margin: 0 auto;
 }
 
+/*Start My Code*/
+nav{
+    display: flex;
+    margin-top: 18px;
+}
+
+nav .nav-item{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    align-items: flex-end;
+    width: 72%;
+}
+.menu-links{
+	text-decoration: none;
+	color:gray;
+	width:75px;
+    font-size:14px;
+}
+header{
+    margin-top: 39px;
+    margin-bottom: 20px;
+}
+
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
+
+
+
+/*End My Code*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
