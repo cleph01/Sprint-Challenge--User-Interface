@@ -71,6 +71,119 @@ p {
     margin: 0 auto;
 }
 
+/*Start My Code*/
+
+/*Start HOME*/
+nav{
+    display: flex;
+    margin-top: 18px;
+}
+
+nav .nav-item{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    align-items: flex-end;
+    width: 72%;
+}
+.menu-links{
+	text-decoration: none;
+	color:gray;
+	width:75px;
+    font-size:14px;
+}
+header{
+    margin-top: 39px;
+    margin-bottom: 20px;
+}
+
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
+/*End HOME*/
+
+
+/*Start ABOUT*/
+.header-text{
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.about-main-section{
+    /*padding-top: 25px;*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /*height: 1000px;*/
+    border-top: 1px dashed #000000;
+}
+.about-category{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px dashed #000000;
+    padding-bottom: 25px; 
+    margin-top: 25px;
+    width:375px;
+    height:450px;
+}
+
+.about-category h3{
+    margin-top: 18px;
+}
+.about-category .learn-more{
+    
+    border: 1px solid #000000;
+    font-size:15px;
+    border-radius:10px;
+    margin-top:43px;
+    padding: 12px 27px;
+}
+.work-together{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+}
+.about-footer{
+    height:50px;
+}
+
+
+
+
+/*End ABOUT*/
+
+
+
+
+/*End My Code*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
